@@ -1,0 +1,14 @@
+nav {
+    background: linear-gradient(to left, #ff7f50, rgb(187, 93, 93));
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  nav > * {
+    cursor: pointer;
+    font-size: larger;
+  }

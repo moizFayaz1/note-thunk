@@ -1,0 +1,48 @@
+.noteList {
+  padding-right: 10px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+/* .noteList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.noteList::-webkit-scrollbar-thumb {
+  background: rgb(163, 75, 75);
+  border-radius: 1rem;
+}
+
+.noteList::-webkit-scrollbar-track {
+  border-radius: 1rem;
+  background: linear-gradient(to bottom, #ff7f50, rgb(187, 93, 93));
+} */
+
+.list {
+  background: linear-gradient(to left, #ff7f50, rgb(187, 93, 93));
+  color: black;
+  border-radius: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+  padding: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  min-width: 30vw;
+  width: 10rem;
+}
+
+.column2 > * {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.list h3 {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 651px) {
+  .list {
+    width: 100%;
+  }
+}
